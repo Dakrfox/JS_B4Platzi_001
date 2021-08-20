@@ -100,3 +100,11 @@ Listas
 4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
 
 ¿Cómo te fue? 🏆
+
+__________________________
+# figuras geometricas 
+
+- primer paso: definir las formas
+- segundo paso: impleentar las formulas en javascript
+- tercer paso: crear funciones
+- cuarto paso: integrar Javascript con html 
