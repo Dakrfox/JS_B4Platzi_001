@@ -1,68 +1,80 @@
 //cuadrados, triangulos y circulos 
 // codigo del cuadrado
 //nombre a un grupo de console
-console.group("Cuadrados");
-const lado_cuadrado= 5;
+// console.group("Cuadrados");
+// const lado_cuadrado= 5;
 
-console.log("el lado del cuadrado es "+ lado_cuadrado);
-
-
-const perimetro = lado_cuadrado * 4;
-
-console.log("el perimetro es: " + perimetro);
+// console.log("el lado del cuadrado es "+ lado_cuadrado);
 
 
-const area_del_cuadrado = lado_cuadrado * lado_cuadrado;
+// const perimetro = lado_cuadrado * 4;
 
-console.log("el area del cuadrado es: " + area_del_cuadrado);
+// console.log("el perimetro es: " + perimetro);
 
-console.groupEnd();
+
+// const area_del_cuadrado = lado_cuadrado * lado_cuadrado;
+
+// console.log("el area del cuadrado es: " + area_del_cuadrado);
+
+// console.groupEnd();
+
+//USAMOS ROW FNCTION
+
+const perimetro_cuadrado = (lado) => lado * 4;
+const area_cuadrado = (lado)=>lado*lado;
+
 
 
 //codigo del triangulo 
-console.group("Triangulos");
+// console.group("Triangulos");
 
-const lado_tri_1 = 6;
+// const lado_tri_1 = 6;
 
-const lado_tri_2 = 6;
+// const lado_tri_2 = 6;
 
-const lado_tri_3 = 4;
+// const lado_tri_3 = 4;
 
-const altura = 5.5;
+// const altura = 5.5;
 
-console.log(`los lados del triangulo son ${lado_tri_1}cm, ${lado_tri_2}cm y ${lado_tri_3}cm`);
+// console.log(`los lados del triangulo son ${lado_tri_1}cm, ${lado_tri_2}cm y ${lado_tri_3}cm`);
 
-perimetro_triangulo = lado_tri_1 + lado_tri_2 + lado_tri_3;
+// perimetro_triangulo = lado_tri_1 + lado_tri_2 + lado_tri_3;
 
-console.log(`el perimetro del triangulo es ${perimetro_triangulo}`);
+// console.log(`el perimetro del triangulo es ${perimetro_triangulo}`);
 
-area_triangulo = (lado_tri_1 * altura )/2;
+// area_triangulo = (lado_tri_1 * altura )/2;
 
-console.log(`el area de triangulo e: ${area_triangulo}`);
+// console.log(`el area de triangulo e: ${area_triangulo}`);
 
-console.groupEnd();
+// console.groupEnd();
+
+const perimetro_triangulo= (lado1, lado2, lado3)=>lado1+lado2+lado3;
+const area_triangulo = (base, altura)=>base*altura;
 
 //codigo del circulo 
 
-console.group("Circulo");
+// console.group("Circulo");
 
-const radio= 2.5;
-const diametro = 2.5*2;
-const pi= Math.PI;
+// const radio= 2.5;
+// const diametro = 2.5*2;
+// const pi= Math.PI;
  
-console.log(`diametro del circulo es: ${diametro}`)
+// console.log(`diametro del circulo es: ${diametro}`)
 
-//formula diamentro*pi
-circuferencia = diametro * pi;
+// //formula diamentro*pi
+// circuferencia = diametro * pi;
 
-console.log(`la circuferencia es: ${circuferencia}`)
-
-
-//area del circulo: pi *r²
-circulo_area = pi *(radio**2);
-
-console.log(`el area del circulo es ${circulo_area}`);
+// console.log(`la circuferencia es: ${circuferencia}`)
 
 
+// //area del circulo: pi *r²
+// circulo_area = pi *(radio**2);
 
-console.groupEnd();
+// console.log(`el area del circulo es ${circulo_area}`);
+
+
+
+// console.groupEnd();
+const diametro =(radio)=> radio*2;
+const circuferencia =()=> diametro* Math.PI;
+const area_circulo =(radio)=> (radio**2)*Math.PI 
