@@ -7,3 +7,9 @@
 - tercer paso: crear funciones.
 - cuarto paso: integrar Javascript con html.
 
+## procentajes y descuentos 
+- primer paso: definir las formas.
+- segundo paso: precios fijos
+- tercer paso: precios dinamico
+- cuarto paso: integrar con html y Js
+

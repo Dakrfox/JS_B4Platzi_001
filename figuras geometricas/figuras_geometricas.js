@@ -78,3 +78,19 @@ const area_triangulo = (base, altura)=>base*altura;
 const diametro =(radio)=> radio*2;
 const circuferencia =()=> diametro* Math.PI;
 const area_circulo =(radio)=> (radio**2)*Math.PI 
+
+
+//trianguo isosceles
+function isosceles(lado_a, lado_b, base){
+    if(lado_a ==lado_b&&lado_a!=base){
+        console.log("si es isosceles, no te engañó");
+        // h²= c² + C² || lado_a² = (base/2)² +C² !! C²= (lado_a² - (base/2)²)¹/2
+        let altura =  0;
+        altura = ((lado_a**2)-((base/2)**2))**(1/2);
+        console.log(`la altura del triangulo isoscel es: ${altura}`)
+
+    }else{
+        console.log(`no es un triangulo isosceles`)
+    }
+}
+isosceles(2,2,1)  
