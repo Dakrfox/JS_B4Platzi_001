@@ -13,3 +13,9 @@
 - tercer paso: precios dinamico
 - cuarto paso: integrar con html y Js
 
+## Calculo de la media, mediana y la moda
+- definir las formulas
+- traduccion de codigo JS
+- optimizacion de codigo JS
+- implementacion co HTML
+
